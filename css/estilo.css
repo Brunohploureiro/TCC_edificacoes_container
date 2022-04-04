@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+p{
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .titulo-divisao{
+    color: #B8AF67;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 4rem;
+  }
+  
+  .btn-cadastro{
+    color: #B8AF67;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    
+  }
+
+  .bg-black {
+    background-color: #1e272e;
+}
+
+.color-white {
+    color: #dff9fb !important;
+}
+
+a:hover {
+    color: #b8fdff !important;
+}
+
+.titulo-pagina{
+  font-family: 'Russo One', sans-serif;
+}

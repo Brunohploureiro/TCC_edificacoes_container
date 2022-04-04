@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <ul class="nav justify-content-end bg-dark text-danger">
+        <li class="nav-item">
+          <a class="link nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link disabled text-secondary">CRIAR CONTA</a>
+        </li>
+      </ul>
+      <br>
+    
+    <div class="containe-fluid">
+        <div id="area5" class="titulo-divisao">
+                <h1 class="text-center">Cadastrar Cliente</h1> 
+        </div>
+      
+        <form method="post" action="inserir.php" name="form1">
+        <div class="form-row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="nome">Nome</label>
+                <input class="form-control" type="text" 
+                name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="sobrenome">Sobrenome</label>
+                <input class="form-control" type="text" 
+                name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+            </div>
+        </div>
+      
+        <div class="form-row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="email">E-mail</label>
+                <input class="form-control" type="text" 
+                name="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="telefone">Telefone</label>
+                <input class="form-control" type="text" 
+                name="telefone" id="telefone" placeholder="telefone">
+            </div>
+        </div>
+      
+        <div class="form-row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="cidade">Cidade</label>
+                <input class="form-control" type="text" 
+                name="cidade" id="cidade" placeholder="Cidade">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="uf">UF</label><br/>
+                <select name="uf" id="uf" class="itemForm">
+                  <option value="AC">AC</option>
+                  <option value="AL">AL</option>
+                  <option value="AP">AP</option>
+                  <option value="AM">AM</option>
+                  <option value="BA">BA</option>
+                  <option value="CE">CE</option>
+                  <option value="ES">ES</option>
+                  <option value="GO">GO</option>
+                  <option value="MA">MA</option>
+                  <option value="MT">MT</option>
+                  <option value="MS">MS</option>
+                  <option value="MG">MG</option>
+                  <option value="PA">PA</option>
+                  <option value="PB">PB</option>
+                  <option value="PR">PR</option>
+                  <option value="PE">PE</option>
+                  <option value="PI">PI</option>
+                  <option value="RJ">RJ</option>
+                  <option value="RN">RN</option>
+                  <option value="RS">RS</option>
+                  <option value="RO">RO</option>
+                  <option value="RR">RR</option>
+                  <option value="SC">SC</option>
+                  <option value="SP">SP</option>
+                  <option value="SE">SE</option>
+                  <option value="TO">TO</option>
+                  <option value="DF">DF</option>
+                </select>
+            </div>
+        </div>
+      
+        <div class="form-row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="email">Crie sua senha</label>
+                <input class="form-control" type="password" 
+                name="email" id="email" placeholder="Senha">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="telefone">Confirme sua senha</label>
+                <input class="form-control" type="password" 
+                name="telefone" id="telefone" placeholder="Confirme sua senha">
+            </div>
+        </div>
+
+        <div class="col-md-4 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Concordo com os termos</label>
+          </div>
+          <br>
+      
+        <button class="btn btn-dark btn-lg btn-cadastro col-md-2">Enviar</button>
+        <button type="submit" class="btn btn-dark btn-lg btn-cadastro">
+            <a class="text-danger" href="index.html">Já possuo conta</a>
+          </button>
+      </form>
+      <br>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
